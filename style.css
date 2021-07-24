@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Ubuntu:wght@300;400;500&display=swap');
+
+/* banner section */
+
+.navbar a {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.navbar a span {
+    color: #11A0DB;
+}
+
+.input-group button {
+    color: #fff;
+}
+
+.nav-icons .nav-icon{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(56, 56, 56);
+}
+
+.nav-icon:hover {
+    color: #11A0DB;
+}
+
+.menu {
+    background-color: #11A0DB;
+}
+
+.navbar .navbar-nav a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-item span{
+    color: #fff;
+}
+
+.menu .nav-item:hover{
+    background-color: #fff;
+}
+
+.menu .nav-item:hover span{
+    color: #11A0DB;
+}
