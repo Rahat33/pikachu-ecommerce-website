@@ -26,6 +26,8 @@
     color: #11A0DB;
 }
 
+/* fixed navbar style */
+
 .menu {
     background-color: #11A0DB;
 }
@@ -47,4 +49,23 @@
 
 .menu .nav-item:hover span{
     color: #11A0DB;
+}
+
+/* main section style*/
+
+.form>h4 {
+    color: #141414;
+    font-weight: 600;
+}
+
+.form .row h6 {
+    color: #323232;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form .row p {
+    color: #282828;
+    font-size: 14px;
+    font-weight: 500;
 }
