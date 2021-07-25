@@ -28,27 +28,27 @@
         </div>
 
         <nav class="navbar navber-expand-lg navbar-light py-3 border border-1">
-            <div class="container col-md-12 justify-content-md-start d-flex flex-wrap">
-                <div class="col-md-1 me-5">
+            <div class="container-lg container-fluid col-12 d-flex flex-wrap">
+                <div class="col-1 me-lg-5 me-md-4">
                     <a href="#" class="navbar-brand">
                         <img class="img-fluid" src="images/logo/pikachu.jpg" alt="brand logo">
                         <span>pikachu</span>
                     </a>
                 </div>
 
-                <div class="col-md-6 px-3 ms-4">
+                <div class="col-6 px-3 ms-4">
                     <form class="form-inline">
                         <div class="input-group">
                             <input class="form-control ms-5" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-info" type="submit"><i class="fas fa-search"></i></button>
+                            <button class="btn menu" type="submit"><i class="fas fa-search"></i></button>
                         </div>
                     </form>
                 </div>
 
-                <div class="col-md-4 d-flex nav-icons ms-3">
-                    <a href="http://" target="_blank" rel="noopener noreferrer" class="nav-icon ps-3 me-5"
-                        type="button"><i class="fas fa-shopping-cart me-2"></i>Cart</a>
-                    <a href="http://" target="_blank" rel="noopener noreferrer" class="nav-icon ms-5 px-3 me-2"><i
+                <div class="col-4 d-flex flex-wrap nav-icons ms-lg-3">
+                    <a href="http://" target="_blank" rel="noopener noreferrer" class="nav-icon ps-lg-3 me-lg-5"
+                        type="button"><i class="fas fa-shopping-cart me-md-2"></i>Cart</a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer" class="nav-icon ms-lg-5 px-3 me-2"><i
                             class="fas fa-lock-open me-2"></i>log
                         In</a>
                     <a href="http://" target="_blank" rel="noopener noreferrer" class="nav-icon"><i
@@ -59,63 +59,144 @@
 
         </nav>
 
-        <nav class="menu sticky-top mb-1">
+        <nav class="navbar navbar-expand-lg navbar-light py-1 menu">
             <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light py-1">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav justify-content-evenly">
-                            <a class="nav-item nav-link mx-3" href="#"><span>Smartphones</span></a>
-                            <a class="nav-item nav-link " href="#"><span>Feature Phones</span></a>
-                            <a class="nav-item nav-link mx-3" href="#"><span>Electronics & Appliances</span></a>
-                            <a class="nav-item nav-link" href="#"><span>Mobile Accesories</span></a>
-                            <a class="nav-item nav-link mx-3" href="#"><span>Computer & Accesories</span></a>
-                            <a class="nav-item nav-link" href="#"><span>Life Style</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav justify-content-evenly">
+                        <div class="list-item">
+                            <a class="nav-link mx-3" href="#"><span>Smartphones</span></a>
                         </div>
+                        <a class="nav-item nav-link " href="#"><span>Feature Phones</span></a>
+                        <a class="nav-item nav-link mx-3" href="#"><span>Electronics & Appliances</span></a>
+                        <a class="nav-item nav-link" href="#"><span>Mobile Accesories</span></a>
+                        <a class="nav-item nav-link mx-3" href="#"><span>Computer & Accesories</span></a>
+                        <a class="nav-item nav-link" href="#"><span>Life Style</span></a>
                     </div>
-                </nav>
+                </div>
             </div>
         </nav>
 
+    </header>
+
+    <!-- main section -->
+    <main>
         <section>
-            <div class="container form">
+            <div class="container form mt-2 mb-5">
                 <h4>Customer LogIn</h4>
                 <div class="row row-cols-1 justify-content-center">
                     <form class="w-50">
                         <h6 class="pb-2">Registered Customers</h6>
                         <p class="pb-2">If you have an account, sign in with your email address.</p>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email</label>
+                        <div class="form-group mb-4">
+                            <label for="exampleInputEmail1" class="mb-2">Email</label>
                             <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter email">
+                                aria-describedby="emailHelp" placeholder="Enter email" required>
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                                 else.</small>
                         </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Password</label>
+                        <div class="form-group mb-4">
+                            <label for="exampleInputPassword1" class="mb-2">Password</label>
                             <input type="password" class="form-control" id="exampleInputPassword1"
-                                placeholder="Password">
+                                placeholder="Password" required>
                         </div>
-                        <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+
+                        <button type="submit" class="btn w-100 mb-1">LOGIN</button>
+
+                        <a href="http://" target="_blank" rel="noopener noreferrer">forgot your password?</a>
+
+                        <p class="my-3">Or, login with</p>
+
+                        <div class="btn-group-sm mb-5">
+                            <div class="w-100 d-flex">
+                                <button type="submit" class="w-50 btn btn-primary btn-sm mb-1 me-2"><i
+                                        class="fab fa-facebook"></i> Facebook</button>
+                                <button type="submit" class="w-50 btn btn-danger btn-sm mb-1 ms-2"><i
+                                        class="fab fa-google"></i> Google</button>
+                            </div>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+
+                        <button type="submit" class="btn w-100">Create Account</button>
                     </form>
                 </div>
             </div>
         </section>
+    </main>
 
+    <!-- footer section -->
+    <footer>
+        <div class="footer-top container">
+            <div class="row py-5">
+                <div class="col-md-3 text-center">
+                    <h4>About</h4>
+                    <p>About Us</p>
+                    <p>Privacy Policy</p>
+                    <p>Cookie Policy</p>
+                    <p>Why Shop with Us</p>
+                    <p>Terms and Conditions</p>
+                    <p>Help</p>
+                </div>
+                <div class="col-md-2 text-center">
+                    <h4>Contact</h4>
+                    <p>Contact us</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <h4>Pikachu</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 59/5 Dholpur</p>
+                    <p>Dholpur New Road</p>
+                    <p>Dhaka-1203, Bangladesh</p>
+                    <p><i class="fas fa-phone-alt"></i> +8801554591444</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Download our app</h4>
+                    <p class="d-flex">
+                        <img src="images/badge/google-play-badge.png" alt="" class="w-75 h-75">
+                        <img src="images/badge/App-store-badge.png" alt="" class="w-75 h-75 ms-3">
+                    </p>
+                </div>
+            </div>
+        </div>
 
-        <!-- Scripting tag -->
+        <hr>
 
-        <script src="js/jquery.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <div class="footer-bottom container py-4">
+            <div class="row row-cols-1">
+                <div class="col-md-3 d-flex footer-icons">
+                    <a href="http://" target="_blank" rel="noopener noreferrer" class="me-3"><i
+                            class="fab fa-facebook"></i>
+                    </a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer" class="me-3"><i
+                            class="fab fa-youtube"></i>
+                    </a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer" class="me-3"><i
+                            class="fab fa-instagram"></i>
+                    </a>
+
+                </div>
+                <div class="col-md-5 copyright pt-3">
+                    <p><i class="far fa-copyright"></i> 2021 pikachu.com | All Right Reserved</p>
+                </div>
+
+                <div class="col-md-4 d-flex gateaway justify-content-center">
+                    <p><img src="images/badge/Cash-On-Delivery.png" alt=""></p>
+                    <p><img src="images/badge/visa.png" alt=""></p>
+                    <p><img src="images/badge/master.png" alt=""></p>
+                    <p><img src="images/badge/amex.png" alt=""></p>
+                    <p><img src="images/badge/bkash.png" alt=""></p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripting tag -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -43,6 +43,10 @@
     color: #fff;
 }
 
+/* .menu .navbar {
+    position: -webkit-sticky;
+} */
+
 .menu .nav-item:hover{
     background-color: #fff;
 }
@@ -53,19 +57,96 @@
 
 /* main section style*/
 
+.form {
+    font-size: 14px;
+    font-weight: 600;
+}
+
 .form>h4 {
     color: #141414;
-    font-weight: 600;
 }
 
-.form .row h6 {
+.form .row form h6 {
     color: #323232;
-    font-size: 14px;
-    font-weight: 600;
 }
 
-.form .row p {
+.form .row form p {
     color: #282828;
-    font-size: 14px;
     font-weight: 500;
+}
+
+.form .row form>button {
+    color: #fff;
+    background-color: #11A0DB;
+}
+
+.form .row form>button:hover {
+    color: #11A0DB;
+    background-color: #fff;
+    border: 1px solid #11A0DB;
+}
+
+.form .row form a {
+    text-decoration: none;
+    color: #282828;
+}
+
+.form .row form a:hover {
+    color: #11A0DB;
+}
+
+/* Footer Style */
+
+footer {
+    background-color:#F1F1F1;
+}
+
+.footer-top h4 {
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.footer-top p {
+    font-size: 12px;
+    color: #646464;
+}
+
+.footer-bottom .footer-icons a {
+    font-size: 2rem;
+}
+
+.fa-facebook {
+    color: #3F80CA;
+}
+
+.fa-facebook:hover {
+    color: #72a7e4;
+}
+
+.fa-youtube {
+    color: #D11919;
+}
+
+.fa-youtube:hover {
+    color: #cf4b4b;
+}
+
+.fa-instagram {
+    color: #282828;
+}
+
+.fa-instagram:hover {
+    color: #643a5d;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    color: #646464;
+}
+
+.footer-bottom .gateaway img {
+    width: 50px;
+    height: 38px;
 }
